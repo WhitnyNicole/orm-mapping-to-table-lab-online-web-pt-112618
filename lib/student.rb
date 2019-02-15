@@ -14,7 +14,7 @@ class Student
   
   def create_table
     sql = <<-SQL 
-      CREATE TABLE students 
+      CREATE TABLE students (name, grade, id) VALUES (?, ?, ?)
     SQL 
   end 
   
