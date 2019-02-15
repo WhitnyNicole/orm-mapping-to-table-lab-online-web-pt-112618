@@ -13,7 +13,9 @@ class Student
   end 
   
   def create_table
-    sql = 
+    sql = <<-SQL 
+    
+    SQL 
   end 
   
   
